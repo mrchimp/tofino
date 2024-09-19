@@ -118,6 +118,42 @@
                     "media_upload": 0,
                     "delay": 0,
                     "parent_repeater": "field_653fde8fdf14f"
+                },
+                {
+                    "key": "field_6696d6a25a6c1",
+                    "label": "Hide Alert on Specific Pages",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "relationship",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "post",
+                        "page"
+                    ],
+                    "post_status": [
+                        "publish",
+                        "future"
+                    ],
+                    "taxonomy": "",
+                    "filters": [
+                        "search",
+                        "post_type",
+                        "taxonomy"
+                    ],
+                    "return_format": "id",
+                    "min": "",
+                    "max": "",
+                    "elements": "",
+                    "bidirectional": 0,
+                    "bidirectional_target": [],
+                    "parent_repeater": "field_653fde8fdf14f"
                 }
             ]
         }
